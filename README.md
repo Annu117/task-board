@@ -1,7 +1,7 @@
 # TaskBoard - Kanban-style Task Management App
 *A modern Trello-like task board with drag-and-drop functionality*
 
-**Live Demo:** [Frontend on Vercel](https://task-board--sable.vercel.app/)  
+**Live Demo:** [Frontend on Vercel](https://task-board-eta.vercel.app/)  
 **Backend API:** [Backend on Render](https://task-board-jqed.onrender.com/)
 
 ## Features
