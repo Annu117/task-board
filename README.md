@@ -1,17 +1,16 @@
 # TaskBoard - Kanban-style Task Management App
-*A modern Trello-like task board with drag-and-drop functionality*
+*A Trello-like task board with drag-and-drop functionality*
 
 **Live Demo:** [Frontend on Vercel](https://task-board-eta.vercel.app/)  
 **Backend API:** [Backend on Render](https://task-board-jqed.onrender.com/)
 
 ## Features
 
-- 🗂️ Three interactive columns: To Do, In Progress, Done
-- ✨ Create/edit/delete tasks
-- 🖱️ Smooth drag-and-drop between columns using Dnd Kit
-- 🔄 Auto-save task positions and statuses
-- 📱 Mobile-responsive design
-- ⚡ Optimistic UI updates
+- Three interactive columns: To Do, In Progress, Done
+- Create/edit/delete tasks
+- Smooth drag-and-drop between columns using Dnd Kit
+- Auto-save task positions and statuses
+- Mobile-responsive design
 
 ## Tech Stack
 
@@ -36,7 +35,7 @@ git clone https://github.com/Annu117/task-board.git
 cd task-board/backend
 
 # Install dependencies
-pip install flask flask-cors
+pip install -r requirements.txt
 
 # Start server (Port 5000)
 python app.py
@@ -57,7 +56,7 @@ echo "REACT_APP_API_URL=http://localhost:5000" > .env
 npm run dev
 ```
 
-## Key Implementation Details
+## Implementation Details
 
 ### Drag-and-Drop Architecture
 - **Dnd Kit Core** for drag handling
@@ -105,9 +104,3 @@ task-board/
 | `/tasks` | POST | Create new task |
 | `/tasks/{id}` | PUT | Update task |
 | `/tasks/{id}` | DELETE | Delete a task |
-
----
-
-**Built with ❤️ using Modern Web Technologies**  
-[![GitHub](https://img.shields.io/badge/Repo_Stars-Welcome!-blue?logo=github)](https://github.com/Annu117/task-board)
-```
